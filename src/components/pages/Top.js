@@ -1,27 +1,15 @@
-import { Box, Grid } from '@material-ui/core'
-import React from 'react'
-import Header from '../molecules/Header'
-import LatestWorksList from '../molecules/LatestWorksList'
-import SideBar from '../molecules/SideBar'
+import { Box } from "@mui/material";
+import Layout from "components/layouts/layout";
+import React from "react";
 
 const Top = () => {
-    return (
-        <>
-        <Box>
-          <Header />
-        </Box>
-        <Box margin={5}>
-            <Grid container spacing={8}>
-                <Grid item xs={3}>
-                    <SideBar />
-                </Grid>
-                <Grid item xs={7}>
-                    <LatestWorksList />
-                </Grid>
-            </Grid>
-        </Box>
-        </>
-    )
-}
+  return (
+    <Layout>
+      <Box>
+        test
+      </Box>
+    </Layout>
+  );
+};
 
-export default Top
+export default Top;

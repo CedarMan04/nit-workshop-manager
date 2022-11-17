@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# nit-workshop-showroom
+日本工業大学フィジカルコンピューティング工房生・担当教諭向けの作品・お知らせ情報を管理するダッシュボードです。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 実行
+```
+npm install
+npm run start
+```
 
 ## Available Scripts
 
@@ -68,4 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# nit-workshop-showroom
