@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 
 const Header = () => {
   return (
-    <AppBar position="relative" style={{ boxShadow: "none" }}>
+    <AppBar position="sticky" style={{ boxShadow: "none" }}>
       <Toolbar>
         <Button variant="text" color="inherit">
           <Typography style={{ fontWeight: 700 }} variant="body1">
